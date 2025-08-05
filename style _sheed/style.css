@@ -426,3 +426,128 @@ li {
 }
 
 /* Newsletter section Related style  */
+.Newsletter {
+
+    display: flex;
+    gap: 50px;
+}
+
+.Newsletter-container {
+
+    width: 50%;
+    height: 422px;
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 84, 0);
+    border-radius: 16px;
+
+}
+
+.Newsletter-container {
+
+    padding: 40px;
+}
+
+.Newsletter-img {
+
+    width: 672px;
+    height: 422px;
+
+}
+
+.Newsletter-container h4 {
+
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 30px;
+    margin-bottom: 16px;
+}
+
+.Newsletter-container p {
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+
+    margin-bottom: 50px;
+}
+
+.input-type {
+    margin-bottom: 50px;
+}
+
+#name {
+
+    padding: 15px;
+    padding-right: 100px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: none;
+
+    margin-bottom: 16px;
+}
+
+#email {
+
+    padding: 15px;
+    padding-right: 100px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: none;
+    margin-bottom: 24px;
+}
+
+.btn-subscribe {
+
+    text-align: center;
+    align-items: center;
+    padding: 15px 145px;
+    border-radius: 8px;
+    border: none;
+
+}
+
+
+.Newsletter-container button {
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 25px;
+
+
+}
+
+.Discounts-card {
+
+
+    padding: 15px;
+    /* width: 324px; */
+    border-radius: 16px;
+    background: rgb(255, 84, 0);
+
+    position: absolute;
+    width: 244px;
+    left: 920.4px;
+    top: 5650px;
+    transform: rotate(-15.63deg);
+
+}
+
+.Discounts-card p {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+}
+
+.Discounts-card h4 {
+
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    font-weight: 800;
+    color: white;
+}
