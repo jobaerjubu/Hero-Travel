@@ -68,7 +68,85 @@ li {
     justify-content: space-evenly;
     gap: 3rem;
 }
-.nav-bar p  {
+
+.nav-bar p {
 
     cursor: pointer;
+}
+
+
+/* banner section related style  */
+
+.container-description {
+
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0%;
+    padding: 1.5rem 0;
+    margin: auto;
+}
+
+.explore-your-travel {
+
+    background-image: linear-gradient(180.00deg, rgba(19, 19, 24, 0.8), rgba(19, 19, 24, 0) 100%), url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+
+    padding: 7rem 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+.explore-your-travel {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.explore-container h3 {
+
+    color: white;
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.travel-inputs {
+
+
+    display: flex;
+    gap: 1rem;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 1rem;
+    border-radius: 8px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+
+.travel-inputs input,
+.travel-inputs select {
+    padding: 0.7rem 1rem;
+    border: none;
+    border-radius: 6px;
+    min-width: 150px;
+    font-size: 1rem;
+}
+
+.btn-primary {
+
+    color: rgb(255, 255, 255);
+    border: none;
+    width: 174px;
+    height: 52px;
+    background: rgb(255, 84, 0);
+
 }
