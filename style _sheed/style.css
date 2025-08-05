@@ -233,13 +233,13 @@ li {
 
 .row-2 {
 
-   grid-template-columns: 0.8fr  1fr 0.58fr;
+    grid-template-columns: 0.8fr 1fr 0.58fr;
 
 }
 
 .row-3 {
 
-   grid-template-columns: 0.8fr 1.14fr;
+    grid-template-columns: 0.8fr 1.14fr;
 
 }
 
@@ -261,3 +261,168 @@ li {
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
 
 }
+
+
+/* Why Choose Us section  related style  */
+
+.Why-Choose-Us-description {
+
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 15px;
+    line-height: 26px;
+}
+
+.Choose-Us-card-1 {
+
+    margin-top: 20px;
+    width: 50%;
+    padding: 14px 32px;
+    box-sizing: border-box;
+    border: 1px solid rgba(251, 181, 99, 0.2);
+    border-radius: 16px;
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.Choose-Us-card-2 {
+    margin-top: 20px;
+    width: 50%;
+    padding: 14px 32px;
+    box-sizing: border-box;
+    border: 1px solid rgba(41, 206, 246, 0.2);
+    border-radius: 16px;
+    background: rgba(41, 206, 246, 0.05);
+
+}
+
+.Choose-Us-card-3 {
+
+    margin-top: 20px;
+    width: 50%;
+    padding: 14px 32px;
+    box-sizing: border-box;
+    border: 1px solid rgba(233, 68, 68, 0.2);
+    border-radius: 16px;
+    background: rgba(233, 68, 68, 0.05);
+}
+
+.Choose-Us-card-container {
+    margin-top: 33px;
+
+}
+
+.Choose-Us-card-container h4 {
+
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.Choose-Us-card-container p {
+
+    margin-top: 16px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.two-div-card-container {
+    display: flex;
+    gap: 24px;
+}
+
+.one-div-card-container {
+
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/* Deals & Discounts section  Related style  */
+
+.Deals-Discounts-description {
+
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 15px;
+    line-height: 26px;
+}
+
+.group-39-img {
+
+    width: 95%;
+}
+
+.img-1,
+.img-2,
+.img-3 {
+
+    margin-bottom: 30px;
+
+}
+
+.three-img {
+
+    margin: 80px;
+}
+
+
+/* Simple-Perfect-Place Related style  */
+
+.Simple-Perfect-Place {
+
+    display: flex;
+    gap: 50px;
+}
+
+.Simple-Perfect-Place h3 {
+
+    display: flex;
+    justify-content: left;
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+
+.Simple-Perfect-Place-description {
+
+    margin-top: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.Simple-Perfect-Place ul li {
+
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.Simple-Perfect-Place button {
+
+    border-radius: 8px;
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+
+.iframe {
+
+    width: 610px;
+    height: 424px;
+    border-radius: 20px;
+}
+
+/* Newsletter section Related style  */
