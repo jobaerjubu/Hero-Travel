@@ -150,3 +150,52 @@ li {
     background: rgb(255, 84, 0);
 
 }
+
+
+
+
+/* our-popular-tour section related style */
+
+.our-popular-tour {
+
+    display: flex;
+    gap: 53px;
+}
+
+.our-popular-tour h3 {
+
+    display: flex;
+    justify-content: left;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 50px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+
+.tour-container-description {
+
+    margin-top: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.our-popular-tour ul li {
+
+    margin-top: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+}
+
+.our-popular-tour button {
+
+    border-radius: 8px;
+    margin-top: 32px;
+}
+
