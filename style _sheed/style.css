@@ -197,5 +197,67 @@ li {
 
     border-radius: 8px;
     margin-top: 32px;
+    font-size: 20px;
+    font-weight: 800;
 }
 
+
+/* Choose Your Destination section Related style  */
+
+
+.your-destination img {
+
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.your-destination-description {
+
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.row-1,
+.row-2,
+.row-3 {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin: 1rem 0;
+
+}
+
+.row-2 {
+
+   grid-template-columns: 0.8fr  1fr 0.58fr;
+
+}
+
+.row-3 {
+
+   grid-template-columns: 0.8fr 1.14fr;
+
+}
+
+.country-card {
+    position: relative;
+
+
+}
+
+.country-2 {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+
+}
